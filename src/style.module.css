@@ -1,0 +1,40 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .links {
+    display: flex;
+    margin-left: auto; 
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav li {
+    margin-left: 1rem;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
